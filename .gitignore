@@ -1,0 +1,6 @@
+# いらないものを記述
+.htaccess
+
+wp-config.php
+
+*.log
