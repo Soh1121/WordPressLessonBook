@@ -19,6 +19,10 @@
 <?php echo get_the_date(); ?>
 </time>
 
+<span class="postcat">
+<?php the_category(', '); ?>
+</span>
+
 <?php the_content(); ?>
 
 </article>
