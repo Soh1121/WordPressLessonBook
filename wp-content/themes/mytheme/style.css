@@ -7,12 +7,27 @@ Version: 1.0
 */
 
 body {
-    font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif
+    font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
 }
 
 /* 記事 */
 article h1 {
     margin: 0;
     font-size: 32px;
-    font-weight: normal
+    font-weight: normal;
+}
+
+/* 記事の付加情報 */
+.postinfo {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.postinfo a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.postinfo .postcat {
+    margin-left: 20px;
 }
