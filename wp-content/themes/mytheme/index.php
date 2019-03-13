@@ -15,7 +15,9 @@
 
 <h1><?php the_title(); ?></h1>
 
+<time datetime="<?php echo get_the_date('Y-m-d'); ?>">
 <?php echo get_the_date(); ?>
+</time>
 
 <?php the_content(); ?>
 
