@@ -31,3 +31,7 @@ article h1 {
 .postinfo .postcat {
     margin-left: 20px;
 }
+
+.postinfo i {
+    color: #888888;
+}
