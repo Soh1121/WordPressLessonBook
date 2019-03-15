@@ -31,6 +31,7 @@
 
 <?php the_content(); ?>
 
+<?php if(is_single()): ?>
 <div class="pagenav">
     <span class="old">
         <?php previous_post_link('%link', '<i class="fa fa-chevron-circle-left"></i> %title'); ?>
@@ -39,6 +40,7 @@
         <?php next_post_link('%link', '%title <i class="fa fa-chevron-circle-right"></i>'); ?>
     </span>
 </div>
+<?php endif; ?>
 
 </article>
 
