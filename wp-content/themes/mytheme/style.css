@@ -45,3 +45,17 @@ article h1 {
     font-size: 12px;
     text-decoration: none;
 }
+
+.pagenav .old a {
+    float: left;
+}
+
+.pagenav .new a {
+    float: right;
+}
+
+.pagenav {
+    overflow: hidden;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
