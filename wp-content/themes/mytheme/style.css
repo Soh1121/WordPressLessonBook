@@ -35,3 +35,27 @@ article h1 {
 .postinfo i {
     color: #888888;
 }
+
+/* 前後の記事へのリンク */
+.pagenav a {
+    padding: 5px 10px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    color: #666666;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.pagenav .old a {
+    float: left;
+}
+
+.pagenav .new a {
+    float: right;
+}
+
+.pagenav {
+    overflow: hidden;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
