@@ -50,5 +50,16 @@
 
 <?php endwhile; endif; ?>
 
+<?php if($wp_query->max_num_pages > 1): ?>
+    <div class="pagenav">
+        <span class="old">
+        <?php next_posts_link(); ?>
+        </span>
+        <span class="new">
+        <?php previous_posts_link(); ?>
+        </span>
+    </div>
+<?php endif;?>
+
 </body>
 </html>
