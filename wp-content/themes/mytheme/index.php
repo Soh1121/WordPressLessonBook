@@ -31,6 +31,14 @@
 
 <?php the_content(); ?>
 
+<div class="pagenav">
+    <span class="old">
+        <?php previous_post_link(); ?>
+    </span>
+    <span class="new">
+        <?php next_post_link(); ?>
+    </span>
+</div>
 
 </article>
 
