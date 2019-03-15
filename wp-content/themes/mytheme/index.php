@@ -53,10 +53,10 @@
 <?php if($wp_query->max_num_pages > 1): ?>
     <div class="pagenav">
         <span class="old">
-        <?php next_posts_link(); ?>
+        <?php next_posts_link('<i class="fa fa-chevron-circle-left"></i> 古い記事'); ?>
         </span>
         <span class="new">
-        <?php previous_posts_link(); ?>
+        <?php previous_posts_link('新しい記事 <i class="fa fa-chevron-circle-right"></i>'); ?>
         </span>
     </div>
 <?php endif;?>
