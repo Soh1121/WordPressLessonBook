@@ -11,6 +11,8 @@
 </head>
 <body <?php body_class(); ?>>
 
+<h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
+
 <div class="container">
 
 <?php if(have_posts()): while(have_posts()): the_post(); ?>
