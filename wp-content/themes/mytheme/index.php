@@ -72,5 +72,9 @@
 
 </div> <!-- container -->
 
+<footer>
+    <small>Copyright &copy; <?php bloginfo('name'); ?></small>
+</footer>
+
 </body>
 </html>
