@@ -22,6 +22,7 @@ body {
 /* 記事 */
 article {
     margin-bottom: 40px;
+    overflow: hidden;
 }
 
 article h1 {
@@ -76,6 +77,7 @@ article h1 a {
     overflow: hidden;
     margin-top: 40px;
     margin-bottom: 40px;
+    clear: both;
 }
 
 /* ヘッダー */
@@ -132,6 +134,18 @@ article img {
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.alignright {
+    float: right;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.alignleft {
+    float: left;
+    margin-bottom: 30px;
+    margin-right: 30px;
 }
 
 .wp-caption {
