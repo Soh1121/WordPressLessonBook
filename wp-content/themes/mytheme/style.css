@@ -77,6 +77,7 @@ article h1 a {
     overflow: hidden;
     margin-top: 40px;
     margin-bottom: 40px;
+    clear: both;
 }
 
 /* ヘッダー */
