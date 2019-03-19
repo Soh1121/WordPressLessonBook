@@ -137,3 +137,10 @@ article img {
 .wp-caption {
     max-width: 100%;
 }
+
+.wp-caption-text {
+    margin: 0;
+    color: #666666;
+    font-size: 14px;
+    text-align: center;
+}
