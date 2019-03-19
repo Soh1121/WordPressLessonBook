@@ -89,6 +89,8 @@ header a {
 
 .siteinfo {
     overflow: hidden;
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
 
 .siteinfo h1 {
@@ -101,6 +103,7 @@ header a {
 .siteinfo p {
     float: right;
     margin: 0;
+    margin-top: 5px;
     font-size: 12px;
 }
 
