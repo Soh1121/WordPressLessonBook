@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?php bloginfo('name'); ?>
     <?php wp_title(); ?></title>
+
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
     
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
@@ -14,8 +16,10 @@
 
 <header>
     <div class="siteinfo">
-        <h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
-        <p><?php bloginfo('description'); ?></p>
+        <div class="container">
+            <h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
+            <p><?php bloginfo('description'); ?></p>
+        </div>
     </div>
 </header>
 
@@ -74,7 +78,9 @@
 </div> <!-- container -->
 
 <footer>
+    <div class="container">
     <small>Copyright &copy; <?php bloginfo('name'); ?></small>
+    </div>
 </footer>
 
 </body>

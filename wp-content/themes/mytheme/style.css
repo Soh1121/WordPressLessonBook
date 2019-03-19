@@ -7,6 +7,7 @@ Version: 1.0
 */
 
 body {
+    margin: 0;
     font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
 }
 
@@ -14,6 +15,8 @@ body {
     max-width: 650px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* 記事 */
@@ -73,4 +76,45 @@ article h1 a {
     overflow: hidden;
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+/* ヘッダー */
+header {
+    margin-bottom: 40px;
+    background-color: #4a5f7e;
+    color: #ffffff;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.siteinfo {
+    overflow: hidden;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.siteinfo h1 {
+    float: left;
+    margin: 0;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+}
+
+.siteinfo p {
+    float: right;
+    margin: 0;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+/* フッター */
+footer {
+    margin-top: 40px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: #4a5f7e;
+    color: #ffffff;
 }
