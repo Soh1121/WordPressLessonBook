@@ -142,6 +142,12 @@ article img {
     margin-left: 30px;
 }
 
+.alignleft {
+    float: left;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
 .wp-caption {
     max-width: 100%;
 }
