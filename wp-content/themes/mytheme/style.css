@@ -87,8 +87,21 @@ header a {
     text-decoration: none;
 }
 
+.siteinfo {
+    overflow: hidden;
+}
+
 .siteinfo h1 {
+    float: left;
+    margin: 0;
     font-family: 'Acme', sans-serif;
+    font-size: 20px;
+}
+
+.siteinfo p {
+    float: right;
+    margin: 0;
+    font-size: 12px;
 }
 
 /* フッター */
