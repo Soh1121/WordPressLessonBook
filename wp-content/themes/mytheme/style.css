@@ -76,6 +76,17 @@ article h1 a {
 }
 
 /* ヘッダー */
+header {
+    margin-bottom: 40px;
+    background-color: #4a5f7e;
+    color: #ffffff;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 .siteinfo h1 {
     font-family: 'Acme', sans-serif;
 }
