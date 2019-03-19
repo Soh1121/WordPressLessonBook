@@ -90,3 +90,10 @@ header a {
 .siteinfo h1 {
     font-family: 'Acme', sans-serif;
 }
+
+/* フッター */
+footer {
+    margin-top: 40px;
+    background-color: #4a5f7e;
+    color: #ffffff;
+}
