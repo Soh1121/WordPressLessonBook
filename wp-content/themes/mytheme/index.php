@@ -77,6 +77,10 @@
     </div>
 <?php endif;?>
 
+<ul>
+<?php dynamic_sidebar(); ?>
+</ul>
+
 </div> <!-- container -->
 
 <footer>
