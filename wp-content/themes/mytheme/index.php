@@ -77,9 +77,11 @@
     </div>
 <?php endif;?>
 
+<div class="blogmenu">
 <ul>
 <?php dynamic_sidebar(); ?>
 </ul>
+</div>
 
 </div> <!-- container -->
 
