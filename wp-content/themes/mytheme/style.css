@@ -165,3 +165,9 @@ article img {
     padding: 0;
     list-style: none;
 }
+
+.blogmenu .widget {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #e8e8e8;
+}
