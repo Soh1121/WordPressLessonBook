@@ -181,6 +181,8 @@ article img {
 }
 
 .blogmenu li a {
+    display: block;
+    padding: 10px 5px;
     color: #666666;
     font-style: 14px;
     text-decoration: none;
