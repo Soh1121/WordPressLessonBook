@@ -171,3 +171,11 @@ article img {
     padding: 20px;
     background-color: #e8e8e8;
 }
+
+.blogmenu .widgettitle {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-right: solid 10px #4a5f7e;
+    color: #4a5f7e;
+    font-style: 14px;
+}
