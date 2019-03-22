@@ -206,3 +206,14 @@ article img {
     background-color: #4a5f7e;
     color: #ffffff;
 }
+
+/* コメント投稿フォーム */
+#respond p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+#respond label {
+    font-size: 14px;
+}
