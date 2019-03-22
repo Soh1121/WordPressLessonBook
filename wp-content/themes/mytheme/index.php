@@ -98,7 +98,9 @@
 <li class="widget">
     <ul>
         <li>
-        <a href="<?php bloginfo('rss2_url'); ?>">RSS</a>
+        <a href="<?php bloginfo('rss2_url'); ?>">
+        <i class="fa fa-rss-square"></i> RSS
+        </a>
         </li>
     </ul>
 </li>
