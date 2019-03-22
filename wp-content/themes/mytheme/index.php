@@ -28,6 +28,7 @@
 <div class="container">
 
 <?php if(is_category()): ?>
+<i class="fa fa-folder-open"></i>
 <h1>「<?php single_cat_title(); ?>」に関する記事</h1>
 <?php endif; ?>
 
