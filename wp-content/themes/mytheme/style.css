@@ -230,4 +230,7 @@ article img {
 #respond input[type="submit"] {
     width: 200px;
     padding: 10px;
+    border: none;
+    background-color: #e6cc1c;
+    -webkit-appearance: none;
 }
