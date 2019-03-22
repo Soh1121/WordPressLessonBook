@@ -200,3 +200,9 @@ article img {
     font-size: 14px;
     font-weight: normal;
 }
+
+.archive-title i {
+    padding: 15px;
+    background-color: #4a5f7e;
+    color: #ffffff;
+}
