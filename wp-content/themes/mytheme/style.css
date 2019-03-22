@@ -239,3 +239,7 @@ article img {
 #respond input[type="submit"]:hover {
     background-color: #ff8800;
 }
+
+#respond .required {
+    color: #ff0000;
+}
