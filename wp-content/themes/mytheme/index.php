@@ -76,6 +76,7 @@
 </div>
 <?php endif; ?>
 
+<?php comments_template(); ?>
 </article>
 
 <?php endwhile; endif; ?>
