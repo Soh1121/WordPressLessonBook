@@ -233,4 +233,9 @@ article img {
     border: none;
     background-color: #e6cc1c;
     -webkit-appearance: none;
+    cursor: pointer;
+}
+
+#respond input[type="submit"]:hover {
+    background-color: #ff8800;
 }
