@@ -94,6 +94,15 @@
 <div class="blogmenu">
 <ul>
 <?php dynamic_sidebar(); ?>
+
+<li class="widget">
+    <ul>
+        <li>
+        <a href="<?php bloginfo('rss2_url'); ?>">RSS</a>
+        </li>
+    </ul>
+</li>
+
 </ul>
 </div>
 
