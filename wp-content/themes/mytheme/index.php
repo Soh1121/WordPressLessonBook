@@ -36,6 +36,7 @@
 
 <?php if(is_month()): ?>
 <h1 class="archive-title">
+<i class="fa fa-clock-o"></i>
 <?php echo get_the_date('Y月n月'); ?>に投稿した記事
 </h1>
 <?php endif; ?>
