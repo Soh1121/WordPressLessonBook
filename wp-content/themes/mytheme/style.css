@@ -221,4 +221,7 @@ article img {
 #respond input,
 #respond textarea {
     width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
