@@ -217,3 +217,8 @@ article img {
 #respond label {
     font-size: 14px;
 }
+
+#respond input,
+#respond textarea {
+    width: 100%;
+}
