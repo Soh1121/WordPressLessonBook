@@ -51,6 +51,10 @@ article h1 a {
     margin-left: 20px;
 }
 
+.postinfo .postcom {
+    margin-left: 20px;
+}
+
 .postinfo i {
     color: #888888;
 }
