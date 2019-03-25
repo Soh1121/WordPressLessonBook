@@ -61,6 +61,10 @@
     <i class="fa fa-folder-open"></i>
     <?php the_category(', '); ?>
     </span>
+
+    <span class="postcom">
+    <?php comments_number(); ?>
+    </span>
 </div>
 
 <?php the_content(); ?>
