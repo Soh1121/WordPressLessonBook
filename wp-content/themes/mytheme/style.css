@@ -247,4 +247,11 @@ article img {
 /* コメント */
 #comments footer {
     background: none;
+    margin: 0;
+    color: #000000;
+    font-size: 12px;
+}
+
+#comments footer a {
+    color: #000000;
 }
