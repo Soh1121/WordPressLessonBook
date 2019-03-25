@@ -79,23 +79,6 @@
     </div>
 <?php endif;?>
 
-<div class="blogmenu">
-<ul>
-<?php dynamic_sidebar(); ?>
-
-<li class="widget">
-    <ul>
-        <li>
-        <a href="<?php bloginfo('rss2_url'); ?>">
-        <i class="fa fa-rss-square"></i> RSS
-        </a>
-        </li>
-    </ul>
-</li>
-
-</ul>
-</div>
-
 </div> <!-- container -->
 
 <footer>
