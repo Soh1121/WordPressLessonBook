@@ -243,3 +243,8 @@ article img {
 #respond .required {
     color: #ff0000;
 }
+
+/* コメント */
+#comments footer {
+    background: none;
+}
