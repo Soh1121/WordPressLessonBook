@@ -63,7 +63,11 @@
     </span>
 
     <span class="postcom">
-    <?php comments_number(); ?>
+    <?php comments_number(
+        'コメント',
+        'コメント（1件）',
+        'コメント（%件）'
+    ); ?>
     </span>
 </div>
 
