@@ -51,29 +51,6 @@
     <h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 <?php endif; ?>
 
-<div class="postinfo">
-    <time datetime="<?php echo get_the_date('Y-m-d'); ?>">
-    <i class="fa fa-clock-o"></i>
-    <?php echo get_the_date(); ?>
-    </time>
-
-    <span class="postcat">
-    <i class="fa fa-folder-open"></i>
-    <?php the_category(', '); ?>
-    </span>
-
-    <span class="postcom">
-    <i class="fa fa-comment"></i>
-    <a href="<?php comments_link(); ?>">
-    <?php comments_number(
-        'コメント',
-        'コメント（1件）',
-        'コメント（%件）'
-    ); ?>
-    </a>
-    </span>
-</div>
-
 <?php the_content(); ?>
 
 <?php if(is_single()): ?>
