@@ -63,6 +63,7 @@
     </span>
 
     <span class="postcom">
+    <i class="fa fa-comment"></i>
     <?php comments_number(
         'コメント',
         'コメント（1件）',
