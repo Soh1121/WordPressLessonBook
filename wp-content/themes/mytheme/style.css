@@ -255,3 +255,7 @@ article img {
 #comments footer a {
     color: #000000;
 }
+
+#comments footer div {
+    display: inline;
+}
