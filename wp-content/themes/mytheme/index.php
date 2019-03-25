@@ -64,11 +64,13 @@
 
     <span class="postcom">
     <i class="fa fa-comment"></i>
+    <a href="<?php comments_link(); ?>">
     <?php comments_number(
         'コメント',
         'コメント（1件）',
         'コメント（%件）'
     ); ?>
+    </a>
     </span>
 </div>
 
