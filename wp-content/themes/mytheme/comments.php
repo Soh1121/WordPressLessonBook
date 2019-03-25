@@ -1,3 +1,4 @@
+<div id="comments">
 <h3>コメント</h3>
 
 <ul>
@@ -5,3 +6,4 @@
 </ul>
 
 <?php comment_form('format=html5'); ?>
+</div>
