@@ -139,6 +139,11 @@ nav li a {
     display: block;
     padding-top: 15px;
     padding-bottom: 10px;
+    border-bottom: 5px solid transparent;
+}
+
+nav li a:hover {
+    border-bottom-color: #00ccff;
 }
 
 /* フッター */
