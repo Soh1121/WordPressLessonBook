@@ -146,6 +146,10 @@ nav li a:hover {
     border-bottom-color: #00ccff;
 }
 
+nav li.current-menu-item a {
+    border-bottom-color: #e6cc1c;
+}
+
 /* フッター */
 footer {
     margin-top: 40px;
