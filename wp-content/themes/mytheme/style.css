@@ -127,6 +127,12 @@ nav ul {
     margin: 0;
     padding: 0;
     font-style: 12px;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    margin-right: 15px;
 }
 
 /* フッター */
