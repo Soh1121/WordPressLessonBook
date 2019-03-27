@@ -25,6 +25,8 @@
     </div>
 
     <nav>
+    <div class="container">
     <?php wp_nav_menu('theme_location=navigation'); ?>
+    </div>
     </nav>
 </header>
