@@ -135,6 +135,12 @@ nav li {
     margin-right: 15px;
 }
 
+nav li a {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
 /* フッター */
 footer {
     margin-top: 40px;
