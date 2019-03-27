@@ -100,6 +100,12 @@ header a {
     overflow: hidden;
     padding-top: 14px;
     padding-bottom: 14px;
+    background-color: #ffffff;
+    color: #4a5f7e;
+}
+
+.siteinfo a {
+    color: #4a5f7e;
 }
 
 .siteinfo h1 {
@@ -114,6 +120,34 @@ header a {
     margin: 0;
     margin-top: 5px;
     font-size: 12px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-style: 12px;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    margin-right: 15px;
+}
+
+nav li a {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid transparent;
+}
+
+nav li a:hover {
+    border-bottom-color: #00ccff;
+}
+
+nav li.current-menu-item a {
+    border-bottom-color: #e6cc1c;
 }
 
 /* フッター */
