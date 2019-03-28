@@ -341,3 +341,11 @@ article img {
 .container {
     min-width: 1000px;
 }
+
+.contents {
+    width: 65%;
+}
+
+.blogmenu {
+    width: 30%;
+}
