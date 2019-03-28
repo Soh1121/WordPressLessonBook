@@ -313,3 +313,26 @@ article img {
 #comments .comment-content {
     margin-left: 30px;
 }
+
+/* お問い合わせフォーム */
+.wpcf7 input,
+.wpcf7 textarea {
+    width: 100%;
+    padding: 5px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wpcf7 input[type="submit"] {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    background-color: #e6cc1c;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+.wpcf7 input[type="submit"]:hover {
+    background-color: #ff8800;
+}
