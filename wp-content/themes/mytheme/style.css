@@ -336,3 +336,19 @@ article img {
 .wpcf7 input[type="submit"]:hover {
     background-color: #ff8800;
 }
+
+/* ２段組 */
+.container {
+    min-width: 1000px;
+    overflow: hidden;
+}
+
+.contents {
+    width: 65%;
+    float: left;
+}
+
+.blogmenu {
+    width: 30%;
+    float: right;
+}
