@@ -340,12 +340,15 @@ article img {
 /* ２段組 */
 .container {
     min-width: 1000px;
+    overflow: hidden;
 }
 
 .contents {
     width: 65%;
+    float: left;
 }
 
 .blogmenu {
     width: 30%;
+    float: right;
 }
