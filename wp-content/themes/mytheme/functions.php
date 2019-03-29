@@ -8,3 +8,6 @@ add_theme_support('automatic-feed-links');
 
 // カスタムメニュー
 register_nav_menu('navigation', 'ナビゲーション');
+
+// カスタムヘッダー
+add_theme_support('custom-header');
