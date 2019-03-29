@@ -395,4 +395,5 @@ nav li {
 .excerpt img {
     float: left;
     margin-right: 20px;
+    width: 40%;
 }
