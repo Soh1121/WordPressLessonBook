@@ -374,3 +374,20 @@ nav li {
 .excerpt p {
     font-size: 14px;
 }
+
+.excerpt .more a {
+    padding: 5px 20px;
+    border: #cccccc solid 1px;
+    border-radius: 5px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.excerpt .more a:hover {
+    background-color: #e6cc1c;
+}
+
+.excerpt .more i {
+    margin-left: 10px;
+    color: #cccccc;
+}
