@@ -392,8 +392,18 @@ nav li {
     color: #cccccc;
 }
 
+@media (min-width: 500px) {
 .excerpt img {
     float: left;
     margin-right: 20px;
     width: 40%;
+}
+}
+
+@media (max-width: 499px) {
+    .excerpt img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
