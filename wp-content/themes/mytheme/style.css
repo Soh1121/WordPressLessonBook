@@ -356,4 +356,9 @@ article img {
     float: right;
 }
 
+/* ナビゲーションメニュー */
+nav li {
+    margin-right: 40px;
+}
+
 }
