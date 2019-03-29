@@ -26,6 +26,8 @@
         </div>
     </div>
 
+    <img src="<?php echo get_template_directory_uri(); ?>/test.jpg" width="960" height="960" alt="">
+
     <nav>
     <div class="container">
     <?php wp_nav_menu('theme_location=navigation'); ?>
