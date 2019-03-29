@@ -16,3 +16,9 @@ add_theme_support('custom-header', array(
     'default-image' => '%s/header-1500x250.jpg',
     'header-text' => false
 ));
+
+// 概要（抜粋）の文字数
+//function my_length($length) {
+//    return 70;
+//}
+//add_filter('excerpt_mblength', 'my_length');
