@@ -26,7 +26,7 @@
         </div>
     </div>
 
-    <img src="<?php echo get_template_directory_uri(); ?>/header-960x160.jpg" width="960" height="160" alt="">
+    <img src="<?php echo get_template_directory_uri(); ?>/header-1500x250.jpg" width="1500" height="250" alt="">
 
     <nav>
     <div class="container">
