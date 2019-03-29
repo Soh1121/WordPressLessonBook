@@ -56,7 +56,7 @@
 <?php else: ?>
     <div class="excerpt">
     <?php the_excerpt(); ?>
-    <p class="more"><a href="<?php the_permalink(); ?>">続きを読む</a></p>
+    <p class="more"><a href="<?php the_permalink(); ?>">続きを読む<i class="fa fa-chevron-right"></i></a></p>
     </div>
 <?php endif; ?>
 
