@@ -51,7 +51,11 @@
     </span>
 </div>
 
-<?php the_content(); ?>
+<?php if(is_single()): ?>
+    <?php the_content(); ?>
+<?php else: ?>
+    <?php the_excerpt(); ?>
+<?php endif; ?>
 
 <?php if(is_single()): ?>
 <div class="pagenav">
