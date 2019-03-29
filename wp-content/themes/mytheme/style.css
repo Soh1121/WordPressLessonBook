@@ -337,6 +337,9 @@ article img {
     background-color: #ff8800;
 }
 
+/* メディアクエリの設定 */
+@media (min-width: 768px) {
+
 /* ２段組 */
 .container {
     min-width: 1000px;
@@ -351,4 +354,6 @@ article img {
 .blogmenu {
     width: 30%;
     float: right;
+}
+
 }
