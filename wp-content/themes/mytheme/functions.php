@@ -10,4 +10,7 @@ add_theme_support('automatic-feed-links');
 register_nav_menu('navigation', 'ナビゲーション');
 
 // カスタムヘッダー
-add_theme_support('custom-header');
+add_theme_support('custom-header', array(
+    'width' => 1500,
+    'height' => 250
+));
