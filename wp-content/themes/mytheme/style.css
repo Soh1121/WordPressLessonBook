@@ -445,3 +445,11 @@ nav li {
     color: #ffffff;
     font-size: 50px;
 }
+
+.link:nth-child(2) i {
+    background-color: #e8a380;
+}
+
+.link:nth-child(3) i {
+    background-color: #b7ef6b;
+}
