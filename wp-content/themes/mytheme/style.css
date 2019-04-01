@@ -407,3 +407,18 @@ nav li {
         margin-right: auto;
     }
 }
+
+/* トップページ */
+.largeheader {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.home header {
+    margin-bottom: 0;
+}
+
+.home footer {
+    margin-top: 0;
+}
