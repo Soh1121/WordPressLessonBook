@@ -440,6 +440,7 @@ nav li {
     margin-right: auto;
     width: 150px;
     line-height: 150px;
+    border-radius: 75px;
     background-color: #ecc952;
     color: #ffffff;
     font-size: 50px;
