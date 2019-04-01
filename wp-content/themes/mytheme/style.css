@@ -407,3 +407,67 @@ nav li {
         margin-right: auto;
     }
 }
+
+/* トップページ */
+.largeheader {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.home header {
+    margin-bottom: 0;
+}
+
+.home footer {
+    margin-top: 0;
+}
+
+/* トップページのメニュー */
+.topmenu {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.link {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.link a {
+    color: #aaaaaa;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.link i {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 150px;
+    line-height: 150px;
+    border-radius: 75px;
+    background-color: #ecc952;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.link:nth-child(2) i {
+    background-color: #e8a380;
+}
+
+.link:nth-child(3) i {
+    background-color: #b7ef6b;
+}
+
+@media (min-width: 500px){
+.topmenu {
+    overflow: hidden;
+}
+
+.link {
+    float: left;
+    width: 33.3333%;
+}
+}
