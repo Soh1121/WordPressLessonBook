@@ -460,3 +460,11 @@ nav li {
 .link:nth-child(3) i {
     background-color: #b7ef6b;
 }
+
+.topmenu {
+    overflow: hidden;
+}
+
+.link {
+    float: left;
+}
