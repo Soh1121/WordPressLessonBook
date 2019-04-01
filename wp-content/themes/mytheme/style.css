@@ -422,3 +422,14 @@ nav li {
 .home footer {
     margin-top: 0;
 }
+
+/* トップページのメニュー */
+.link {
+    text-align: center;
+}
+
+.link a {
+    color: #aaaaaa;
+    font-size: 20px;
+    text-decoration: none;
+}
